@@ -62,3 +62,7 @@ Endpoints that are accessible via the HTTP protocol.
 
 #### Types in typescript
 see in ts-hello file
+
+
+2. Building a toy application
+sry guys, don't have time to do this right now. but this tutorial let me review some key concept of web app and object-oriented programming.
