@@ -1,18 +1,19 @@
-# angular-projects
+# Angular-projects
 
-1. https://www.youtube.com/watch?v=k5E2AVpwsko tutorial fot angular structure and Typescript 
-Some notes:
+Quick learn challenge: I am going to finish this in 24 hours. Start from March 9th 22:00 - March 11th 22:00 (sry I lose. Too many thing to catch up here. Plus I have coursework to do).
 
-### Angular  Notes
+## Part 1. Angular  Notes
 
 -- a frontend framework but has similar logic as a backend design
 
 ![image](https://user-images.githubusercontent.com/46977839/110383649-9616f200-802a-11eb-9a94-fbe7415edfb6.png)
 
+
+
+### 1. Hello world
+
 HTTP Services / APIs:
 Endpoints that are accessible via the HTTP protocol.
-
-
 
 #### some installation
 
@@ -45,6 +46,7 @@ Endpoints that are accessible via the HTTP protocol.
 * srs: our source code (assets, environment, package.json...)
 
 
+
 #### Start coding!
 
 1. [Open Sublime Text from cmder (Windows)](https://medium.com/@pinglinh/open-sublime-text-from-cmder-windows-88f1a7ff63d)  
@@ -64,5 +66,38 @@ Endpoints that are accessible via the HTTP protocol.
 see in ts-hello file
 
 
-2. Building a toy application
-sry guys, don't have time to do this right now. but this tutorial let me review some key concept of web app and object-oriented programming.
+
+### 3. Building blocks of Angular Apps
+
+**Components** 
+
+* (what users will see): data, html template, logic for a view. 
+*  need a App/root component
+* just like different objects
+
+**Modules**: different components block
+
+**pipeline**
+create a component -> **register it in a module** -> add an element in an HTML markup
+
+dependency injection:
+
+<img src="C:\Users\fyfse\AppData\Roaming\Typora\typora-user-images\image-20210309230536941.png" alt="image-20210309230536941" style="zoom:50%;" />
+
+Don't forget to register the service in module.provider list.
+
+
+
+#### Dealing with css
+
+* when using 
+  `npm stall bootstrap --save`
+
+  it will automatically install the 4 version which does not support glyphicon, thus
+
+  `npm stall bootstrap3 --save`
+
+**Http**
+angular4 use 
+*import { HttpClientModule } from '@angular/common/http';*
+
