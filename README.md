@@ -2,6 +2,16 @@
 
 Quick learn challenge: I am going to finish this in 24 hours. Start from March 9th 22:00 - March 11th 22:00 (sry I lose. Too many thing to catch up here. Plus I have coursework to do).
 
+I self-taught Angular framework out of interest and need for building full stack projects in cs4111 and cs6998.
+
+I built this shopping website and host it on AWS S3! [check it out](http://angular-project-s3.s3-website-us-west-2.amazonaws.com/) .
+
+The website is not thing special but it contains all the basic functions such as create, update, search, and delete object.
+
+Another than getting myself familiar with angular framework, I also catch up knowledge about html and css.
+
+Fun learning process!
+
 ## Part 1. Angular  Notes
 
 -- a frontend framework but has similar logic as a backend design
