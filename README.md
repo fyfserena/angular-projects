@@ -82,7 +82,7 @@ create a component -> **register it in a module** -> add an element in an HTML m
 
 dependency injection:
 
-<img src="C:\Users\fyfse\AppData\Roaming\Typora\typora-user-images\image-20210309230536941.png" alt="image-20210309230536941" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/46977839/110887468-611fcf00-82b8-11eb-8069-c4deb16dd837.png)
 
 Don't forget to register the service in module.provider list.
 
